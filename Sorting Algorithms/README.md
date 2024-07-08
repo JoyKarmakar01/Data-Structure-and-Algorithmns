@@ -400,6 +400,47 @@ Odd-Even Sort, also known as Brick Sort, is a parallel version of bubble sort. I
 
 ---
 
+## 🥞 Pancake Sort
+
+### Definition
+Pancake Sort is a sorting algorithm that sorts a sequence by repeatedly flipping portions of the sequence, similar to flipping pancakes in a stack so the largest pancake ends up at the top.
+
+### Pros
+- Simple concept and visualization 🧠
+- Useful for educational purposes and understanding the concept of flipping operations 🍽️
+
+### Cons
+- Not efficient for large datasets, with a time complexity of O(n^2) in the worst case ⏳
+- Not used in practice for large-scale sorting tasks 🚫
+
+### Step-by-Step Approach
+1. Identify the largest unsorted element.
+2. Flip the stack to move the largest element to the top.
+3. Flip the stack again to move the largest element to its correct position.
+4. Repeat for the next largest unsorted element until the entire stack is sorted.
+
+---
+
+## 🧵 Strand Sort
+
+### Definition
+Strand Sort is a sorting algorithm that works by repeatedly pulling sorted sublists from the original list and merging them into a new sorted list.
+
+### Pros
+- Intuitive and easy to understand 🧠
+- Can be efficient for certain types of data 🗂️
+
+### Cons
+- Not suitable for in-place sorting as it requires extra space for the sorted list 🗃️
+- Time complexity can vary, but typically around O(n^2) ⏳
+
+### Step-by-Step Approach
+1. Start with an empty list for the sorted result.
+2. Extract a sublist from the unsorted list that is already sorted.
+3. Merge the sorted sublist into the sorted result list.
+4. Repeat the process until the original list is empty.
+
+
 ## 🎉 Conclusion
 
 Sorting algorithms are fundamental in computer science and data structures. Each algorithm has its strengths and weaknesses, making them suitable for different types of datasets and applications. Choose the right algorithm based on your specific needs and constraints! 🚀
