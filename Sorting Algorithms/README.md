@@ -21,8 +21,8 @@ Welcome to the comprehensive guide on sorting algorithms! Below, you'll find def
 16. [Gnome Sort](#16_Gnome_Sort.py)
 17. [Bitonic Sort](#17_Bitonic_Sort.py)
 18. [Odd-Even Sort](#18_Odd-Even_Sort.py)
-19. [Pancake Sort](#19_Pancake_Sort.py)
-20. [Strand Sort](#20_Strand_Sort.py)
+19. [Pancake Sort](#19.Pancake_Sort.py)
+20. [Strand Sort](#20.Strand_Sort.py)
 
 ---
 
